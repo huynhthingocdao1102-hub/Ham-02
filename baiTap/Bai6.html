@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số nguyên dương</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập số:");
+
+    function SoNguyenDuong(n) {
+        if (n > 0 && Number.isInteger(n)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    console.log(SoNguyenDuong(n));
+</script>
+
+</body>
+</html>

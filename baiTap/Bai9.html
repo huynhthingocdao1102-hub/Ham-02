@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra ký tự trong mảng</title>
+</head>
+<body>
+<script>
+    function kiemTra(arr, kyTu) {
+        if (arr.includes(kyTu)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    console.log(kiemTra(['a', 'f', 'b', 'n', 'h', 'r', 'f'], 'p'));
+    console.log(kiemTra(['a', 'f', 'b', 'n', 'h', 'r', 'f'], 'a'));
+</script>
+</body>
+</html>
